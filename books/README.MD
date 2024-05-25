@@ -1,0 +1,1 @@
+Notes Regarding the books i read - currently reading "Mastering the Data Paradox"

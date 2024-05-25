@@ -1,0 +1,1 @@
+Notes from my weekend youtube series called "FuckWitLLMs"

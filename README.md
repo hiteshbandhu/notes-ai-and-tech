@@ -3,6 +3,7 @@ Author : Hitesh Bandhu
 Email : bandhuhitesh52003@gmail.com
 Twitter : https://x.com/hitmadeit
 Website : https://www.hitmadeit.xyz
+Youtube : https://youtube.com/@hiteshbandhucodes
 ---
 
 The main purpose of this repository is to serve as a centralized hub for storing and sharing my daily learnings. 
