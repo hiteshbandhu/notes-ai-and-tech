@@ -2,7 +2,7 @@
 Author : Hitesh Bandhu
 Email : bandhuhitesh52003@gmail.com
 Twitter : https://x.com/hitmadeit
-Website : https://www.hitmadeit.xyz
+Website : https://www.hiteshbandhu.xyz
 Youtube : https://youtube.com/@hiteshbandhucodes
 ---
 
