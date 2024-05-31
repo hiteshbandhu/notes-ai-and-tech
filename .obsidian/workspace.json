@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ef76c4a316f706da",
+            "id": "45633090664e77fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fuckwLLM/README.MD",
+                "file": "books/Mastering The Data Paradox.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fuckwLLM/README.MD",
+                "file": "books/Mastering The Data Paradox.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fuckwLLM/README.MD",
+                "file": "books/Mastering The Data Paradox.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fuckwLLM/README.MD"
+                "file": "books/Mastering The Data Paradox.md"
               }
             }
           }
@@ -146,8 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ef76c4a316f706da",
+  "active": "45633090664e77fd",
   "lastOpenFiles": [
+    "fuckwLLM/README.MD",
+    "books/Mastering The Data Paradox.md",
+    "Untitled",
     "README.md"
   ]
 }
