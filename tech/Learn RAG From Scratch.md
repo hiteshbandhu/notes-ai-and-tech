@@ -2,6 +2,8 @@
 
 ### 1. Overview 
 
+*code repo* https://github.com/langchain-ai/rag-from-scratch
+
 *slides* : https://docs.google.com/presentation/d/1C9IaAwHoWcc4RSTqo-pCoN3h0nCgqV2JEYZUJunv_9Q/edit?usp=sharing
 
 from video (1-4) it's the basics of how RAG WORKS and why it is needed ?
@@ -23,6 +25,9 @@ from video (1-4) it's the basics of how RAG WORKS and why it is needed ?
 
   --- ***advanced topics starts*** --- 
 
-### Query Translation - Multi Query 
+### 2. Query Translation - Multi Query 
 
 *slides* : https://docs.google.com/presentation/d/15pWydIszbQG3Ipur9COfTduutTZm6ULdkkyX-MNry8I/edit#slide=id.g268cd4ba153_0_0
+
+
+So, this is why query transa
