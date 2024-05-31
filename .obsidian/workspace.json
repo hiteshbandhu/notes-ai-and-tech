@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/google colab advanced.md",
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc419fc501255cef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tech/Learn RAG From Scratch.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech/google colab advanced.md",
+                "file": "tech/Learn RAG From Scratch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tech/google colab advanced.md",
+                "file": "tech/Learn RAG From Scratch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tech/google colab advanced.md"
+                "file": "tech/Learn RAG From Scratch.md"
               }
             }
           }
@@ -159,13 +171,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4e75fa8ba5023b23",
+  "active": "bc419fc501255cef",
   "lastOpenFiles": [
-    "ai-codes/Untitled.md",
     "tech/google colab advanced.md",
+    "tech/Learn RAG From Scratch.md",
+    "README.md",
+    "misc. ai/Untitled.md",
     "books/Mastering The Data Paradox.md",
     "tech",
-    "fuckwLLM/README.MD",
-    "README.md"
+    "fuckwLLM/README.MD"
   ]
 }

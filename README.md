@@ -10,10 +10,11 @@ The main purpose of this repository is to serve as a centralized hub for storing
 
 ## Folder Structure
 
-- **ai-codes**: Contains code snippets, projects, and experiments related to various AI topics.
+- **misc. ai**: Contains random stuff related to ai - agi and takeover shit.
 - **papers**: Houses insightful articles, research papers, and summaries that I come across during my learning journey.
 - **books**: Stores summaries, notes, and key takeaways from books related to AI, machine learning, and related fields.
 - **fuckwLLM**: Notes from my weekend youtube series called FuckWitLLMs
+- **tech** : All the technical coding related stuff or tricks I learn
 
 ## Contributions
 
