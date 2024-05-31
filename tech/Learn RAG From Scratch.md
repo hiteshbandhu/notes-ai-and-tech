@@ -23,5 +23,6 @@ from video (1-4) it's the basics of how RAG WORKS and why it is needed ?
 
   --- ***advanced topics starts*** --- 
 
-### 
+### Query Translation - Multi Query 
 
+*slides* : https://docs.google.com/presentation/d/15pWydIszbQG3Ipur9COfTduutTZm6ULdkkyX-MNry8I/edit#slide=id.g268cd4ba153_0_0
