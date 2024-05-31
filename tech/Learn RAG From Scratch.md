@@ -30,4 +30,16 @@ from video (1-4) it's the basics of how RAG WORKS and why it is needed ?
 *slides* : https://docs.google.com/presentation/d/15pWydIszbQG3Ipur9COfTduutTZm6ULdkkyX-MNry8I/edit#slide=id.g268cd4ba153_0_0
 
 
-So, this is why query transa
+1. **What is query translation** : it means changing/improving the user query using different methods
+2. **why is is needed** : so, what happens is when a user asks a question, we retrieve a similar set of documents from our store using simple distance-search or nearest neighobour search, but this has a disadvantage - what if the user query is poorly written, then the retrieved context won't be as good as the retriever can't understand the questions, it just sees the distance
+3. **how is this solved** : so, there are many solutions, but the most used one is called multi query - we use an extra query translation llm in our chain before retrieval, to give it the question and we ask it to generate 5 different questions related to the original one, from different perspectives. 
+   
+   once, we have 5 questions, we retrieve context from these 5 questions and then take the union of the contexts
+   
+   the unified context is then passed to the llm and answer is retrieved, it is shown to improve results by a lot
+
+####  - - - some papers on query translation techniques :
+
+- https://arxiv.org/abs/2403.00067v1
+
+
