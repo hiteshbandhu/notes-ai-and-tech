@@ -1,6 +1,6 @@
 
 
-### Overview 
+### 1. Overview 
 
 *slides* : https://docs.google.com/presentation/d/1C9IaAwHoWcc4RSTqo-pCoN3h0nCgqV2JEYZUJunv_9Q/edit?usp=sharing
 
@@ -15,6 +15,13 @@ from video (1-4) it's the basics of how RAG WORKS and why it is needed ?
 3. **technical details and steps** : a whole RAG Setup consists of the following steps
    - **ingestion** : the source data is ingested into a database and collected that is relevant to the questions your user can ask, for example : your company's SOP regarding client calls, as the document is updated regularly, it is ingested and updated in the rag pipeline too at regular intervals
    - **indexing** : the text from the document is parsed, then split in to small chunks of data, for better and efficient retrieval, and then it is converted into vectors - and stored into a vector database - why we use vectors?  - because in a vector space, similar vectors will be closer to each other, and hence we can use algorithms such as nearest neighbour and etc, to get the most relevent doc to our questions
-   - **retrieval** : this is the step 
-  
+   - **retrieval** : this is the step in which the question in converted into vector - and then a similarity search is done between our ingested documents and the context and some documents with most similarity are retrieved
+   - **generation** : the context retrieved is added to the prompt and sent to the llm, the llm then uses the context to answer your question
+
+#### I am using Langchain as the framework of my choice. also, this overview is very high-level overview without any maths involved, which you probably won't even need but it's good to know nvthls
+
+
+  --- ***advanced topics starts*** --- 
+
+### 
 
