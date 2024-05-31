@@ -50,3 +50,5 @@ from video (1-4) it's the basics of how RAG WORKS and why it is needed ?
 
 #### - RAG Fusion
 
+*slides* : https://docs.google.com/presentation/d/1EwykmdVSQqlh6XpGt8APOMYp4q1CZqqeclAx61pUcjI/edit
+
