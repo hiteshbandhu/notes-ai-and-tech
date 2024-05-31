@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4e75fa8ba5023b23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tech/google colab advanced.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/Mastering The Data Paradox.md",
+                "file": "tech/google colab advanced.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/Mastering The Data Paradox.md",
+                "file": "tech/google colab advanced.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/Mastering The Data Paradox.md"
+                "file": "tech/google colab advanced.md"
               }
             }
           }
@@ -146,11 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "45633090664e77fd",
+  "active": "4e75fa8ba5023b23",
   "lastOpenFiles": [
-    "fuckwLLM/README.MD",
     "books/Mastering The Data Paradox.md",
-    "Untitled",
+    "tech/google colab advanced.md",
+    "tech",
+    "fuckwLLM/README.MD",
     "README.md"
   ]
 }
