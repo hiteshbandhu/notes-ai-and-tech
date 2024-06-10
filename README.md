@@ -6,7 +6,7 @@ Website : https://www.hiteshbandhu.xyz
 Youtube : https://youtube.com/@hiteshbandhucodes
 ---
 
-The main purpose of this repository is to serve as a centralized hub for storing and sharing my daily learnings. 
+The purpose of this repository is to serve as a centralized hub for storing and sharing my daily learnings. 
 
 ## Folder Structure
 
