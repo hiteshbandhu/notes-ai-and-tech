@@ -1,6 +1,6 @@
 
 
-### 1. Overview 
+### 1. Overview  
 
 *code repo* https://github.com/langchain-ai/rag-from-scratch
 
