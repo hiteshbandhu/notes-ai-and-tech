@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nlp-stanford/README.md",
+                "file": "tech/Learn RAG From Scratch.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nlp-stanford/README.md",
+                "file": "tech/Learn RAG From Scratch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "nlp-stanford/README.md",
+                "file": "tech/Learn RAG From Scratch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "nlp-stanford/README.md"
+                "file": "tech/Learn RAG From Scratch.md"
               }
             }
           }
@@ -173,8 +173,8 @@
   },
   "active": "a0d7cc2e6a053733",
   "lastOpenFiles": [
-    "README.md",
     "nlp-stanford/README.md",
+    "README.md",
     "books/Mastering The Data Paradox.md",
     "Untitled",
     "nlp-stanford",

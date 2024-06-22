@@ -52,3 +52,8 @@ from video (1-4) it's the basics of how RAG WORKS and why it is needed ?
 
 *slides* : https://docs.google.com/presentation/d/1EwykmdVSQqlh6XpGt8APOMYp4q1CZqqeclAx61pUcjI/edit
 
+
+same as the RAG fusion, but after getting the contexts, we rank them based on the informativeness and then, get answer from the first one
+
+---
+
