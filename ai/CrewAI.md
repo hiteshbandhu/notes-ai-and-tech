@@ -1,8 +1,16 @@
-
+---
+Author: Hitesh Bandhu
+Email: bandhuhitesh52003@gmail.com
+Twitter: https://x.com/hitmadeit
+Youtube: https://youtube.com/@hiteshbandhucodes
+Website: https://www.hiteshbandhu.xyz
+---
+---
+***21 Jun 2024***
 ##### tried crew ai today, to make an ai agent that uses just the standard python library and nothing outside that, here is the website for docs
 [link to docs](https://docs.crewai.com/core-concepts/Agents/)
 
-###### here is the code to review, and my own prompts that i used, very basic, wit
+###### here is the code to review, and my own prompts that i used, very basic, will use advanced prompts now
  
 ```python
 from dotenv import load_dotenv
@@ -36,3 +44,7 @@ crew = Crew(
 result = crew.kickoff()
 print(result)
 ```
+
+---
+
+

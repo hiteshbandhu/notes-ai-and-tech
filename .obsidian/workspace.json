@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai/CrewAI.md",
+                "file": "books/Mastering The Data Paradox.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a0d7cc2e6a053733",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "nlp-stanford/README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ai/CrewAI.md",
+                "file": "nlp-stanford/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ai/CrewAI.md",
+                "file": "nlp-stanford/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ai/CrewAI.md"
+                "file": "nlp-stanford/README.md"
               }
             }
           }
@@ -159,15 +171,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d3eb955935ce0d0f",
+  "active": "a0d7cc2e6a053733",
   "lastOpenFiles": [
-    "tech/Python Tips and Tricks.md",
+    "README.md",
+    "nlp-stanford/README.md",
+    "books/Mastering The Data Paradox.md",
+    "Untitled",
+    "nlp-stanford",
     "ai/CrewAI.md",
+    "tech/Python Tips and Tricks.md",
     "tech/Learn RAG From Scratch.md",
     "tech/google colab advanced.md",
     "ai/README.MD",
-    "README.md",
-    "books/Mastering The Data Paradox.md",
     "fuckwLLM/README.MD",
     "papers/README.MD",
     "Untitled.canvas",
