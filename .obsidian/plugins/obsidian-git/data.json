@@ -1,5 +1,5 @@
 {
-  "commitMessage": "added notes: {{date}}",
+  "commitMessage": "added notes: {{date}}\nfiles changed : {{files}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 10,
   "autoPushInterval": 0,
@@ -54,5 +54,5 @@
     "lastShownAuthorDisplay": "initials",
     "lastShownDateTimeFormatOptions": "date"
   },
-  "autoCommitMessage": "added notes: {{date}}"
+  "autoCommitMessage": "added notes: {{date}}\nfiles changed : {{files}}"
 }
