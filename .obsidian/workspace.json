@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech/Learn RAG From Scratch.md",
+                "file": "tech/Python Tips and Tricks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tech/Learn RAG From Scratch.md",
+                "file": "tech/Python Tips and Tricks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tech/Learn RAG From Scratch.md"
+                "file": "tech/Python Tips and Tricks.md"
               }
             }
           }
@@ -171,16 +170,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a0d7cc2e6a053733",
+  "active": "9dc68d02a5b9b4fa",
   "lastOpenFiles": [
+    "books/Mastering The Data Paradox.md",
+    "tech/Learn RAG From Scratch.md",
     "nlp-stanford/README.md",
     "README.md",
-    "books/Mastering The Data Paradox.md",
     "Untitled",
     "nlp-stanford",
     "ai/CrewAI.md",
     "tech/Python Tips and Tricks.md",
-    "tech/Learn RAG From Scratch.md",
     "tech/google colab advanced.md",
     "ai/README.MD",
     "fuckwLLM/README.MD",
