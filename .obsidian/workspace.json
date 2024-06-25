@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/Learn RAG From Scratch.md",
+                "file": "ai/CrewAI.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech/Learn RAG From Scratch.md",
+                "file": "ai/CrewAI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tech/Learn RAG From Scratch.md",
+                "file": "ai/CrewAI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tech/Learn RAG From Scratch.md"
+                "file": "ai/CrewAI.md"
               }
             }
           }
@@ -173,9 +173,9 @@
   },
   "active": "a0d7cc2e6a053733",
   "lastOpenFiles": [
+    "tech/Learn RAG From Scratch.md",
     "books/Mastering The Data Paradox.md",
     "tech/Python Tips and Tricks.md",
-    "tech/Learn RAG From Scratch.md",
     "nlp-stanford/README.md",
     "README.md",
     "Untitled",
