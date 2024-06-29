@@ -52,9 +52,21 @@
                 "currentVersion": "1.6.5"
               }
             }
+          },
+          {
+            "id": "6187c84ece21bc52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Making Production LLM Applications.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -120,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ai/CrewAI.md",
+                "file": "Making Production LLM Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ai/CrewAI.md",
+                "file": "Making Production LLM Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ai/CrewAI.md"
+                "file": "Making Production LLM Applications.md"
               }
             }
           }
@@ -181,8 +193,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "778439137807894d",
+  "active": "6187c84ece21bc52",
   "lastOpenFiles": [
+    "Pasted image 20240630005730.png",
+    "Making Production LLM Applications.md",
     "tech/Learn RAG From Scratch.md",
     "books/Mastering The Data Paradox.md",
     "tech/Python Tips and Tricks.md",
