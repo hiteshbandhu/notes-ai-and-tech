@@ -1,1 +1,5 @@
-{}
+{
+  "attachmentFolderPath": "./",
+  "showUnsupportedFiles": false,
+  "newFileLocation": "root"
+}
