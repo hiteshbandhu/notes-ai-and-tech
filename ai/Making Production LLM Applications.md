@@ -11,11 +11,11 @@ The number of examples you need to finetune a model to your task, of course, dep
 
 In How Many Data Points is a Prompt Worth? (2021), Scao and Rush found that a prompt is worth approximately 100 examples (caveat: variance across tasks and models is high - see image below). The general trend is that as you increase the number of examples, finetuning will give better model performance than prompting. There's no limit to how many examples you can use to finetune a model.
 
-|   |   |
-|---|---|
-||The benefit of finetuning is two folds:|
-||1. You can get better model performance: can use more examples, examples becoming part of the model's internal knowledge.|
-||2. You can reduce the cost of prediction. The more instruction you can bake into your model, the less instruction you have to put into your prompt. Say, if you can reduce ik tokens in your prompt for each prediction, for IM predictions on gpt-3.5-turbo, you'd save $2000.|
+|     |                                                                                                                                                                                                                                                                                 |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     | The benefit of finetuning is two folds:                                                                                                                                                                                                                                         |
+|     | 1. You can get better model performance: can use more examples, examples becoming part of the model's internal knowledge.                                                                                                                                                       |
+|     | 2. You can reduce the cost of prediction. The more instruction you can bake into your model, the less instruction you have to put into your prompt. Say, if you can reduce ik tokens in your prompt for each prediction, for IM predictions on gpt-3.5-turbo, you'd save $2000. |
 
 
 ### 2.  What is Distillation ?
