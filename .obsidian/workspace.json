@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "dd6e216261da688a",
+        "id": "05e18827e100c44f",
         "type": "tabs",
         "children": [
           {
-            "id": "9dc68d02a5b9b4fa",
+            "id": "e3b2ad0da0815f34",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/Python Tips and Tricks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9fda02c10057ab4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ai/Making Production LLM Applications.md",
+                "file": "ai/Make killer ai apps - Roadmap.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ai/Making Production LLM Applications.md",
+                "file": "ai/Make killer ai apps - Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ai/Making Production LLM Applications.md",
+                "file": "ai/Make killer ai apps - Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ai/Making Production LLM Applications.md"
+                "file": "ai/Make killer ai apps - Roadmap.md"
               }
             }
           }
@@ -159,21 +146,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9fda02c10057ab4f",
+  "active": "e3b2ad0da0815f34",
   "lastOpenFiles": [
+    "ai/README.MD",
     "ai/Pasted image 20240630011647.png",
+    "tech/Python Tips and Tricks.md",
     "ai/Making Production LLM Applications.md",
+    "ai/Make killer ai apps - Roadmap.md",
+    "Pasted image 20240704012107.png",
     "books/Mastering The Data Paradox.md",
     "ai/CrewAI.md",
     "Pasted image 20240630005730.png",
     "tech/Learn RAG From Scratch.md",
-    "tech/Python Tips and Tricks.md",
     "nlp-stanford/README.md",
     "README.md",
     "Untitled",
     "nlp-stanford",
     "tech/google colab advanced.md",
-    "ai/README.MD",
     "fuckwLLM/README.MD",
     "papers/README.MD",
     "Untitled.canvas",
