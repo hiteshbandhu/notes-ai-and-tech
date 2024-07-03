@@ -1,7 +1,7 @@
 ---
 Author : Hitesh Bandhu
 Email : bandhuhitesh52003@gmail.com
-Twitter : https://x.com/hitmadeit
+Twitter : https://x.com/_hiteshbandhu
 Website : https://www.hiteshbandhu.xyz
 Youtube : https://youtube.com/@hiteshbandhucodes
 ---
@@ -22,6 +22,6 @@ While this repository primarily serves as a personal learning journal, contribut
 
 ## Contact
 
-Email : bandhuhitesh52003@gmail.com / Twitter: https://twitter.com/hitmadeit
+Email : bandhuhitesh52003@gmail.com / Twitter: https://x.com/_hiteshbandhu
 
 Alternatively, you can open an issue also and I'll respond
