@@ -99,3 +99,25 @@ First, even with a context window of 10M tokens, we’d still need a way to sele
 
 >Finally, there’s cost. `The Transformer’s inference cost scales quadratically` (or linearly in both space and time) with context length. Just because there exists a model that could read your organization’s entire Google Drive contents before answering each question doesn’t mean that’s a good idea. Consider an analogy to how we use RAM: we still read and write from disk, even though there exist compute instances with [RAM running into the tens of terabytes](https://aws.amazon.com/ec2/instance-types/high-memory/).
 
+####  Tuning and optimizing workflows
+
+Some things to try
+
+- An explicit planning step, as tightly specified as possible. Consider having predefined plans to choose from (c.f. https://youtu.be/hGXhFa3gzBs?si=gNEGYzux6TuB1del).
+- Rewriting the original user prompts into agent prompts. Be careful, this process is lossy!
+- Agent behaviors as linear chains, DAGs, and State-Machines; different dependency and logic relationships can be more and less appropriate for different scales. Can you squeeze performance optimization out of different task architectures?
+- Planning validations; your planning can include instructions on how to evaluate the responses from other agents to make sure the final assembly works well together.
+- Prompt engineering with fixed upstream state—make sure your agent prompts are evaluated against a collection of variants of what may happen before.
+
+#### Prioritize deterministic workflows for now
+
+While AI agents can dynamically react to user requests and the environment, their non-deterministic nature makes them a challenge to deploy. Each step an agent takes has a chance of failing, and the chances of recovering from the error are poor.
+
+Make plans. This allows each step to be more predictable and reliable. Benefits include:
+
+- Generated plans can serve as few-shot samples to prompt or finetune an agent.
+- Deterministic execution makes the system more reliable, and thus easier to test and debug. Furthermore, failures can be traced to the specific steps in the plan.
+- Generated plans can be represented as directed acyclic graphs (DAGs) which are easier, relative to a static prompt, to understand and adapt to new situations.
+
+
+#### Don't rely on tempe
