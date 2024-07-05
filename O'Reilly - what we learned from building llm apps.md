@@ -1,6 +1,9 @@
 
 ***link : https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/***
 
+
+***reference given to this article. : https://www.godaddy.com/resources/news/llm-from-the-trenches-10-lessons-learned-operationalizing-models-at-godaddy#h-1-sometimes-one-prompt-isn-t-enough
+
 ---
 
 ```
@@ -46,10 +49,34 @@ When providing the relevant resources, it’s not enough to merely include them;
 
 When using structured input, be aware that each LLM family has their own preferences. Claude prefers `xml` while GPT favors Markdown and JSON. With XML, you can even pre-fill Claude’s responses by providing a `response` tag like so.
 
-> [!TODO] TODO : add li
+> [!TODO] TODO : add link
 >`claude : fill claude's mouth with response`
 
 
+##### make small prompts that do one thing very well
+
+Just like how we strive (read: struggle) to keep our systems and code simple, so should we for our prompts. Instead of having a single, catch-all prompt for the meeting transcript summarizer, we can break it into steps to:
+
+- Extract key decisions, action items, and owners into structured format
+- Check extracted details against the original transcription for consistency
+- Generate a concise summary from the structured details
+
+##### have good data, if using RAG - poor data, poor answers
 
 
+
+#### Retrieval Augmented Generation
+
+- RAG is only as good as the retrieved documents’ relevance, density, and detail
+- The quality of your RAG’s output is dependent on the quality of retrieved documents, which in turn can be considered along a few factors
+
+The first and most obvious metric is relevance. This is typically quantified via ranking metrics such as [Mean Reciprocal Rank (MRR)](https://en.wikipedia.org/wiki/Mean_reciprocal_rank) or [Normalized Discounted Cumulative Gain (NDCG)](https://en.wikipedia.org/wiki/Discounted_cumulative_gain). MRR evaluates how well a system places the first relevant result in a ranked list while NDCG considers the relevance of all the results and their positions. They measure how good the system is at ranking relevant documents higher and irrelevant documents lower. For example, if we’re retrieving user summaries to generate movie review summaries, we’ll want to rank reviews for the specific movie higher while excluding reviews for other movies.
+
+Like traditional recommendation systems, the rank of retrieved items will have a significant impact on how the LLM performs on downstream tasks. To measure the impact, run a RAG-based task but with the retrieved items shuffled—how does the RAG output perform?
+
+Second, we also want to consider information density. If two documents are equally relevant, we should prefer one that’s more concise and has lesser extraneous details. Returning to our movie example, we might consider the movie transcript and all user reviews to be relevant in a broad sense. Nonetheless, the top-rated reviews and editorial reviews will likely be more dense in information.
+
+Finally, consider the level of detail provided in the document. Imagine we’re building a RAG system to generate SQL queries from natural language. We could simply provide table schemas with column names as context. But, what if we include column descriptions and some representative values? The additional detail could help the LLM better understand the semantics of the table and thus generate more correct SQL.
+
+##### Use keyword-search, it can't beat similarity search
 
