@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "05e18827e100c44f",
+        "id": "0bebfb821af907eb",
         "type": "tabs",
         "children": [
           {
-            "id": "e3b2ad0da0815f34",
+            "id": "4ef99876143a4586",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ai/Make killer ai apps - Roadmap.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -146,7 +142,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e3b2ad0da0815f34",
+  "active": "d7996b5f55d2f73b",
   "lastOpenFiles": [
     "ai/README.MD",
     "ai/Pasted image 20240630011647.png",
