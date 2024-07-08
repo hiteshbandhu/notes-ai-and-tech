@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c22da3d3beb55782",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ai/fine-tune using unsloth-ai.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ai/Making Production LLM Applications.md",
+                "file": "ai/fine-tune using unsloth-ai.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ai/Making Production LLM Applications.md",
+                "file": "ai/fine-tune using unsloth-ai.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ai/Making Production LLM Applications.md"
+                "file": "ai/fine-tune using unsloth-ai.md"
               }
             }
           }
@@ -159,8 +171,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7999926e59a1f529",
+  "active": "d7996b5f55d2f73b",
   "lastOpenFiles": [
+    "ai/Making Production LLM Applications.md",
+    "ai/fine-tune using unsloth-ai.md",
     "tech/google colab advanced.md",
     "ai/O'Reilly - what we learned from building llm apps.md",
     "tech/Next.js Notes.md",
@@ -168,7 +182,6 @@
     "ai/README.MD",
     "ai/Pasted image 20240630011647.png",
     "tech/Python Tips and Tricks.md",
-    "ai/Making Production LLM Applications.md",
     "ai/Make killer ai apps - Roadmap.md",
     "Pasted image 20240704012107.png",
     "books/Mastering The Data Paradox.md",
