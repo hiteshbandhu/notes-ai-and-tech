@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai/fine-tune using unsloth-ai.md",
+                "file": "ai/O'Reilly - what we learned from building llm apps.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ai/fine-tune using unsloth-ai.md",
+                "file": "ai/O'Reilly - what we learned from building llm apps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ai/fine-tune using unsloth-ai.md",
+                "file": "ai/O'Reilly - what we learned from building llm apps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ai/fine-tune using unsloth-ai.md"
+                "file": "ai/O'Reilly - what we learned from building llm apps.md"
               }
             }
           }
@@ -171,12 +171,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d7996b5f55d2f73b",
+  "active": "c22da3d3beb55782",
   "lastOpenFiles": [
-    "ai/Making Production LLM Applications.md",
     "ai/fine-tune using unsloth-ai.md",
-    "tech/google colab advanced.md",
     "ai/O'Reilly - what we learned from building llm apps.md",
+    "ai/Making Production LLM Applications.md",
+    "tech/google colab advanced.md",
     "tech/Next.js Notes.md",
     "README.md",
     "ai/README.MD",
