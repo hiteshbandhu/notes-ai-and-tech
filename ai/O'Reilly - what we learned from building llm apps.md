@@ -27,7 +27,7 @@ A few prompting techniques have consistently helped improve performance across v
 
 The idea of in-context learning via n-shot prompts is to provide the LLM with a few examples that demonstrate the task and align outputs to our expectations. A few tips: 
 
-- If n is too low, the model may over-anchor on those specific examples, hurting its ability to generalize. As a rule of thumb, aim for n ≥ 5. Don’t be afraid to go as high as a few dozen.
+- If n is too low, the model may over-anchor on those specific examples, hurting its ability to generalize. ``As a rule of thumb, aim for n ≥ 5. Don’t be afraid to go as high as a few dozen.``
 - Examples should be representative of the expected input distribution. If you’re building a movie summarizer, include samples from different genres in roughly the proportion you expect to see in practice.
 - You don’t necessarily need to provide the full input-output pairs. In many cases, examples of desired outputs are sufficient.
 - If you are using an LLM that supports tool use, your n-shot examples should also use the tools you want the agent to use.
@@ -44,14 +44,12 @@ For example, when asking an LLM to summarize a meeting transcript, we can be exp
 
 When providing the relevant resources, it’s not enough to merely include them; don’t forget to tell the model to prioritize their use, refer to them directly, and sometimes to mention when none of the resources are sufficient. These help “ground” agent responses to a corpus of resources.
 
-
 ##### Use structured output
 
 When using structured input, be aware that each LLM family has their own preferences. Claude prefers `xml` while GPT favors Markdown and JSON. With XML, you can even pre-fill Claude’s responses by providing a `response` tag like so.
 
 > [!TODO] TODO : add link
 >`claude : fill claude's mouth with response`
-
 
 ##### make small prompts that do one thing very well
 
@@ -62,8 +60,6 @@ Just like how we strive (read: struggle) to keep our systems and code simple, so
 - Generate a concise summary from the structured details
 
 ##### have good data, if using RAG - poor data, poor answers
-
-
 
 #### Retrieval Augmented Generation
 
