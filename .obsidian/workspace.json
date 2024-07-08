@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/next.js notes.md",
+                "file": "tech/Next.js Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech/next.js notes.md",
+                "file": "tech/Next.js Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tech/next.js notes.md",
+                "file": "tech/Next.js Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tech/next.js notes.md"
+                "file": "tech/Next.js Notes.md"
               }
             }
           }
@@ -159,10 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d7996b5f55d2f73b",
+  "active": "7999926e59a1f529",
   "lastOpenFiles": [
     "ai/O'Reilly - what we learned from building llm apps.md",
-    "tech/next.js notes.md",
+    "tech/Next.js Notes.md",
     "README.md",
     "ai/README.MD",
     "ai/Pasted image 20240630011647.png",

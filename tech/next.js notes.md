@@ -1,6 +1,7 @@
 
 
 1.  you can make a file `loading.tsx` in the folder where a `page.tsx` is present with the export as an `async function`, and has an async call before fetching. the example is given below. this is a server component, loads the data and then html is returned
+2. 
    
    ```tsx
 // this is page.tsx
