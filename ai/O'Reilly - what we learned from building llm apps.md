@@ -132,4 +132,3 @@ One straightforward approach to caching is to use unique IDs for the items being
 >For more open-ended queries, we can borrow techniques from the field of search, which also leverages caching for open-ended inputs. Features like autocomplete and spelling correction also help normalize user input and thus increase the cache hit rate.
 
 
-
