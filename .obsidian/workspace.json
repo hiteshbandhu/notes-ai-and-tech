@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/google colab advanced.md",
+                "file": "ai/Making Production LLM Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech/google colab advanced.md",
+                "file": "ai/Making Production LLM Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tech/google colab advanced.md",
+                "file": "ai/Making Production LLM Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tech/google colab advanced.md"
+                "file": "ai/Making Production LLM Applications.md"
               }
             }
           }
@@ -161,6 +161,7 @@
   },
   "active": "7999926e59a1f529",
   "lastOpenFiles": [
+    "tech/google colab advanced.md",
     "ai/O'Reilly - what we learned from building llm apps.md",
     "tech/Next.js Notes.md",
     "README.md",
@@ -177,7 +178,6 @@
     "nlp-stanford/README.md",
     "Untitled",
     "nlp-stanford",
-    "tech/google colab advanced.md",
     "fuckwLLM/README.MD",
     "papers/README.MD",
     "Untitled.canvas",
