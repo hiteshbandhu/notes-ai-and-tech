@@ -6,4 +6,5 @@
 2. `intitle` : searches for the string in the title
 3. `inurl` : searches for the string in the url
 4. `intext` : searches for the string in the body of the webpage
-5. 
+5. `filetype:` searches for the specific file type on the domain
+6. `allinurl:` searches for everything after the 
