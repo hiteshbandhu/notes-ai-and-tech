@@ -20,31 +20,19 @@
             }
           },
           {
-            "id": "7999926e59a1f529",
+            "id": "d94967014e087e80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai/Making Production LLM Applications.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c22da3d3beb55782",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ai/O'Reilly - what we learned from building llm apps.md",
+                "file": "tech/Google Dorking Notes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ai/O'Reilly - what we learned from building llm apps.md",
+                "file": "tech/Google Dorking Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ai/O'Reilly - what we learned from building llm apps.md",
+                "file": "tech/Google Dorking Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ai/O'Reilly - what we learned from building llm apps.md"
+                "file": "tech/Google Dorking Notes.md"
               }
             }
           }
@@ -171,11 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c22da3d3beb55782",
+  "active": "d94967014e087e80",
   "lastOpenFiles": [
-    "ai/fine-tune using unsloth-ai.md",
     "ai/O'Reilly - what we learned from building llm apps.md",
     "ai/Making Production LLM Applications.md",
+    "tech/Google Dorking Notes.md",
+    "ai/fine-tune using unsloth-ai.md",
     "tech/google colab advanced.md",
     "tech/Next.js Notes.md",
     "README.md",
