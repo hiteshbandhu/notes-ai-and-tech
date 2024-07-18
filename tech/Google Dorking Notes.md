@@ -14,3 +14,9 @@
 
 -- **tool for dorking : `github.com/opsdisk/pagodo`**
 
+**Videos** : 
+https://www.youtube.com/watch?v=TLPHmHPaCiQ
+
+https://www.youtube.com/watch?v=xpzvlC6WNPU&t=1s
+
+https://www.youtube.com/watch?v=hrVa_dhD-iA
