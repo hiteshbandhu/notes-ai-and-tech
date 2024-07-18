@@ -11,4 +11,6 @@
 7. `-{term}` : removes the term from the results
 8. `after`: search results after a date
 9. `before` : search results before the data
-10. 
+
+-- **tool for dorking : `github.com/opsdisk/pagodo`**
+
