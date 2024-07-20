@@ -4,6 +4,10 @@
 
 ***reference given to this article. : https://www.godaddy.com/resources/news/llm-from-the-trenches-10-lessons-learned-operationalizing-models-at-godaddy#h-1-sometimes-one-prompt-isn-t-enough
 
+*reading for evals : https://hamel.dev/blog/posts/evals/#step-1-write-scoped-tests*
+
+
+
 ---
 
 ```
@@ -143,6 +147,8 @@ If prompting gets you 90% of the way there, then fine-tuning may not be worth th
 
 Create [unit tests (i.e., assertions)](https://hamel.dev/blog/posts/evals/#level-1-unit-tests) consisting of samples of inputs and outputs from production, with expectations for outputs based on at least three criteria. While three criteria might seem arbitrary, it’s a practical number to start with; fewer might indicate that your task isn’t sufficiently defined or is too open-ended, like a general-purpose chatbot. These unit tests, or assertions, should be triggered by any changes to the pipeline, whether it’s editing a prompt, adding new context via RAG, or other modifications. This [write-up has an example](https://hamel.dev/blog/posts/evals/#step-1-write-scoped-tests) of an assertion-based test for an actual use case.
 
+
+#### LLM as a judge technique of evaluation
 
 
 
