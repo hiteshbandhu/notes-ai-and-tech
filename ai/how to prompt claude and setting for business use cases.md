@@ -62,3 +62,17 @@ Prompt engineering is far faster than other methods of model behavior control, s
 When faced with complex tasks like research, analysis, or problem-solving, giving Claude space to think can dramatically improve its performance. This technique, known as chain of thought (CoT) prompting, encourages Claude to break down problems step-by-step, leading to more accurate and nuanced outputs.
 
 
+**Structured prompt**: Use XML tags like `<thinking>` and `<answer>` to separate reasoning from the final answer.
+
+| Role | Content                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| User | Draft personalized emails to donors asking for contributions to this year’s Care for Kids program.  <br>  <br>Program information:  <br><program>{{PROGRAM_DETAILS}}  <br></program>  <br>  <br>Donor information:  <br><donor>{{DONOR_DETAILS}}  <br></donor>  <br>  <br>Think before you write the email in \<thinking> tags. First, think through what messaging might appeal to this donor given their donation history and which campaigns they’ve supported in the past. Then, think through what aspects of the Care for Kids program would appeal to them, given their history. Finally, write the personalized donor email in \<email> tags, using your analysis. |
+
+
+###  Use XML tags to structure your prompts
+
+- this is the best trick in the bag for claude, as it is potentially trained on xml formatted data
+
+> **XML tip**: Use tags like `<instructions>`, `<example>`, and `<formatting>` to clearly separate different parts of your prompt. This prevents Claude from mixing up instructions with examples or context.
+
+
