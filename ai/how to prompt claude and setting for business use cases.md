@@ -211,3 +211,10 @@ You are an AI physician's assistant. Your task is to help doctors diagnose possi
 
 Find quotes from the patient records and appointment history that are rele
 ```
+
+
+
+### how to place images
+
+> Just as with document-query placement, Claude works best when images come before text. Images placed after text or interpolated with text will still perform well, but if your use case allows it, we recommend an image-then-text structure.
+
