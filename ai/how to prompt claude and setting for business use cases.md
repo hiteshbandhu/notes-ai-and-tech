@@ -75,4 +75,22 @@ When faced with complex tasks like research, analysis, or problem-solving, givin
 
 > **XML tip**: Use tags like `<instructions>`, `<example>`, and `<formatting>` to clearly separate different parts of your prompt. This prevents Claude from mixing up instructions with examples or context.
 
+---
+### Give claude roles in the system prompt
 
+```python
+import anthropic
+
+client = anthropic.Anthropic()
+
+response = client.messages.create(
+    model="claude-3-5-sonnet-20240620",
+    max_tokens=2048,
+    system="You are a seasoned data scientist at a Fortune 500 company.", # <-- role prompt
+    messages=[
+        {"role": "user", "content": "Analyze this dataset for anomalies: <dataset>{{DATASET}}</dataset>"}
+    ]
+)
+
+print(response.content)
+```
