@@ -45,3 +45,20 @@ Prompt engineering is far faster than other methods of model behavior control, s
 | ---- | ------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | User | Write a marketing email for our new AcmeCloud features. | Your task is to craft a targeted marketing email for our Q3 AcmeCloud feature release.  <br>  <br>Instructions:  <br>1. Write for this target audience: Mid-size tech companies (100-500 employees) upgrading from on-prem to cloud.  <br>2. Highlight 3 key new features: advanced data encryption, cross-platform sync, and real-time collaboration.  <br>3. Tone: Professional yet approachable. Emphasize security, efficiency, and teamwork.  <br>4. Include a clear CTA: Free 30-day trial with priority onboarding.  <br>5. Subject line: Under 50 chars, mention “security” and “collaboration”.  <br>6. Personalization: Use {{COMPANY_NAME}} and {{CONTACT_NAME}} variables.  <br>  <br>Structure:  <br>1. Subject line  <br>2. Email body (150-200 words)  <br>3. CTA button text |
 
+### Use examples to steer your output
+
+1. This technique, known as few-shot or multishot prompting, is particularly effective for tasks that require structured outputs or adherence to specific formats.
+2. For maximum effectiveness, make sure that your examples are:
+
+	- **Relevant**: Your examples mirror your actual use case.
+	- **Diverse**: Your examples cover edge cases and potential challenges, and vary enough that Claude doesn’t inadvertently pick up on unintended patterns.
+	- **Clear**: Your examples are wrapped in `<example>` tags (if multiple, nested within `<examples>` tags) for structure.
+
+> Ask Claude to evaluate your examples for relevance, diversity, or clarity. Or have Claude generate more examples based on your initial set.
+
+
+### Use chain of though prompting
+
+When faced with complex tasks like research, analysis, or problem-solving, giving Claude space to think can dramatically improve its performance. This technique, known as chain of thought (CoT) prompting, encourages Claude to break down problems step-by-step, leading to more accurate and nuanced outputs.
+
+
