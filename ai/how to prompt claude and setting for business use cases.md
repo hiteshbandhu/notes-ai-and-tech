@@ -5,7 +5,6 @@ link : https://www.anthropic.com/news/prompt-engineering-for-business-performanc
 
 ---
 
-
 ### prompting vs fine-tuning
 
 Prompt engineering is far faster than other methods of model behavior control, such as finetuning, and can often yield leaps in performance in far less time. Here are some reasons to consider prompt engineering over finetuning:  
