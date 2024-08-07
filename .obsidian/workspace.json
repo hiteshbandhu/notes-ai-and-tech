@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0bebfb821af907eb",
+        "id": "87600463f50eeea0",
         "type": "tabs",
         "children": [
           {
-            "id": "240311a3bd24d227",
+            "id": "74f5373622c9294c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai/the future of knowledge assistants, technical aspects by jerry liu.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bb1454ad335f80ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tech/rust/rust introduction and resources.md",
+                "file": "Tools/TOOLS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech/rust/rust introduction and resources.md",
+                "file": "Tools/TOOLS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tech/rust/rust introduction and resources.md",
+                "file": "Tools/TOOLS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tech/rust/rust introduction and resources.md"
+                "file": "Tools/TOOLS.md"
               }
             }
           }
@@ -159,11 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bb1454ad335f80ab",
+  "active": "d7996b5f55d2f73b",
   "lastOpenFiles": [
-    "ai/the future of knowledge assistants, technical aspects by jerry liu.md",
-    "tech/rust/rust introduction and resources.md",
+    "Tools/TOOLS.md",
+    "Tools",
+    "2024-08-07.md",
+    "Untitled.canvas",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
     "README.md",
+    "tech/rust/rust introduction and resources.md",
+    "ai/the future of knowledge assistants, technical aspects by jerry liu.md",
     "ai/how to prompt claude and setting for business use cases.md",
     "tech/rust",
     "prompts/Brainstorming on ideas, business and ideas.md",
@@ -190,7 +183,6 @@
     "nlp-stanford",
     "fuckwLLM/README.MD",
     "papers/README.MD",
-    "Untitled.canvas",
     "2024-06-17.md",
     "misc. ai/Untitled.md",
     "tech"
