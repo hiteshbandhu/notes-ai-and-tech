@@ -7,4 +7,8 @@
 
 ### for UI and Components
 
-- 
+- https://ui.aceternity.com/
+- https://ui.shadcn.com/
+
+
+
