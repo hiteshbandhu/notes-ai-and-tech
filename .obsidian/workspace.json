@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "87600463f50eeea0",
+        "id": "e4759818e5066531",
         "type": "tabs",
         "children": [
           {
-            "id": "74f5373622c9294c",
+            "id": "1bda7631635cfdb5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/TOOLS.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -148,6 +144,7 @@
   },
   "active": "d7996b5f55d2f73b",
   "lastOpenFiles": [
+    "Untitled",
     "Tools/TOOLS.md",
     "Tools",
     "2024-08-07.md",
@@ -184,7 +181,6 @@
     "fuckwLLM/README.MD",
     "papers/README.MD",
     "2024-06-17.md",
-    "misc. ai/Untitled.md",
     "tech"
   ]
 }
